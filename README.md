@@ -28,9 +28,10 @@ The course explores foundational principles of artificial intelligence and intel
 ## 🧩 Mini Project 1 Overview
 
 The first mini-project focuses on two main parts:
-1. **Q4 — Fuzzy System Implementation:**  
-   A fuzzy logic system is designed to model and predict the **Mackey-Glass time series** using the **table lookup method**.  
-   The fuzzy inference process includes membership function definition, rule base construction, and defuzzification to obtain the final outputs.
+1. **Q4 — Neural Network Learning:**  
+ This notebook performs an exploratory data analysis (EDA) and data preprocessing on a customer dataset (teleCust1000t.csv).
+It includes steps such as handling missing values, identifying feature types, data visualization, and experimenting with different imputation strategies for missing data.
+The goal is to prepare clean, well-structured data suitable for further machine learning modeling in later tasks.
 
 2. **Q5 — Neural Network Learning:**  
    A simple **single hidden-layer neural network (MLP)** is trained to approximate nonlinear relationships.  
