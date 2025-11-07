@@ -1,62 +1,55 @@
-# Mini Project 1 — Fuzzy System & Neural Network Implementation
+# 🧠 Mini Project 1 - Fundamentals of Intelligent Systems
 
-This mini-project is part of the **Fundamentals of Intelligent Systems** course and consists of two implementations that demonstrate key AI learning mechanisms: **Fuzzy Logic Modeling** and **Neural Network Learning**.
+## 📘 HW1 - Question 4
+**Objective:**
+Analyze the provided notebook for intelligent system concepts implementation.
 
----
+**Description:**
+This notebook focuses on solving Question 4 from the Fundamentals of Intelligent Systems homework. It includes implementation of algorithms and reasoning processes used in intelligent decision-making.
 
-## 🧮 Part 1 — Fuzzy System (Q4)
+**Tools & Libraries:**
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
 
-### Objective
-To implement a **fuzzy inference system** that predicts the **Mackey-Glass time series** using the **table lookup method**.
+### 🧩 Learning Outcomes
+- Understand and implement intelligent decision-making systems.
+- Apply data-driven reasoning methods.
+- Analyze algorithmic performance and interpret outcomes.
 
-### Description
-- Designed fuzzy sets and membership functions for input/output variables.  
-- Constructed a fuzzy rule base to define relationships.  
-- Implemented fuzzification, inference, and defuzzification processes.  
-- Evaluated performance by comparing fuzzy predictions with actual values.
+### 👨‍💻 Author
+Ali Soltani
 
-### Tools & Libraries
-- Python  
-- NumPy  
-- Matplotlib  
-
----
-
-## 🧠 Part 2 — Neural Network (Q5)
-
-### Objective
-To develop and train a **single hidden-layer neural network (MLP)** for function approximation.
-
-### Description
-- Initialized network weights and biases.  
-- Applied **delta learning rule** for supervised training.  
-- Computed mean squared error (MSE) during training to assess convergence.  
-- Visualized learning progress and final approximation accuracy.
-
-### Tools & Libraries
-- Python  
-- NumPy  
-- Matplotlib  
-- Scikit-learn (optional utility functions)
+### 📅 Course Information
+Fundamentals of Intelligent Systems - Mini Project 1 (Fall 2025)
 
 ---
 
-## 🧩 Learning Outcomes
-- Understanding of fuzzy inference system design and rule-based modeling.  
-- Practical experience in implementing a neural network from scratch.  
-- Familiarity with learning algorithms and their effect on model accuracy.  
+## 📗 HW1 - Question 5
+**Objective:**
+Further exploration of intelligent systems concepts with practical data analysis.
 
----
+**Description:**
+This notebook expands on Question 5, focusing on advanced reasoning and learning techniques such as supervised or unsupervised learning. Visualizations and evaluations are provided.
 
-## 👨‍💻 Author
-**Ali Soltani**  
-Khajeh Nasir Toosi University of Technology  
-Department of Electrical Engineering  
+**Tools & Libraries:**
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
 
----
+### 🧩 Learning Outcomes
+- Implement more advanced intelligent models.
+- Understand the evaluation of intelligent systems.
+- Visualize and interpret learning results effectively.
 
-## 📅 Course Information
+### 👨‍💻 Author
+Ali Soltani
 
-**Course:** Fundamentals of Intelligent Systems  
-**Semester:** Fall 2025  
-**Instructor:** Dr. Mahdi Aliyari-Shoorehdeli
+### 📅 Course Information
+Course: Fundamentals of Intelligent Systems
+Semester: Fall 2025
+Instructor: Dr. Mahdi Aliyari-Shoorehdeli
