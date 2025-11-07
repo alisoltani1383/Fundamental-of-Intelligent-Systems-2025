@@ -19,7 +19,7 @@ The course explores foundational principles of artificial intelligence and intel
 
 | Folder/File | Description |
 |--------------|-------------|
-| `HW1__Fundamental_of_Intelligent_Systems(Q4).ipynb` | Implementation of a fuzzy logic-based system for time series prediction. |
+| `HW1__Fundamental_of_Intelligent_Systems(Q4).ipynb` |  implementation of algorithms and reasoning processes used in intelligent decision-making. |
 | `HW1__Fundamental_of_Intelligent_Systems(Q5).ipynb` | Implementation of a single hidden-layer neural network trained using the delta learning rule. |
 | `README.md` | Repository overview (this file). |
 
