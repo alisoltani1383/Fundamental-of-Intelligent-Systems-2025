@@ -59,4 +59,4 @@ Khajeh Nasir Toosi University of Technology
 
 **Course:** Fundamentals of Intelligent Systems  
 **Semester:** Fall 2025  
-**Instructor:** [To be filled]  
+**Instructor:** Dr. Mahdi Aliyari-Shoorehdeli  
