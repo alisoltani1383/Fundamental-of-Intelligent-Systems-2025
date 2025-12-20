@@ -1,164 +1,137 @@
-# Mini Project 2 – Fundamentals of Intelligent Systems
+# 🧠 Mini Project 2 – Fundamentals of Intelligent Systems
 
-This repository contains the complete **theoretical analysis**, **implementations**, and **experimental evaluations** for **Mini Project 2** of the course *Fundamentals of Intelligent Systems*.  
-The project focuses on **Support Vector Machines (SVMs)** and **Radial Basis Function Neural Networks (RBFNNs)**, including both static and adaptive architectures.
-
----
-
-## Course Information
-- **Course:** Fundamentals of Intelligent Systems  
-- **Instructor:** Dr. Aliyary  
-- **University:** Khajeh Nasir Toosi University of Technology  
-- **Semester:** Fall 2025  
+## 📘 Course: Fundamentals of Intelligent Systems  
+**Instructor:** Dr. Aliyary  
+**University:** Khajeh Nasir Toosi University of Technology  
+**Semester:** Fall 2025  
 
 ---
 
-## Authors
-- **HamidReza Eslami** – 40115563  
-- **Ali Soltani** – 40119403  
+## 👥 Authors
+- **HamidReza Eslami** (40115563)  
+- **Ali Soltani** (40119403)  
 
 ---
 
-## Repository Structure
+## 🎯 Objective
+
+The objective of this mini project is to **analyze, design, and implement intelligent learning systems** based on both **theoretical foundations** and **practical machine learning models**, with a strong focus on **Support Vector Machines (SVMs)** and **Radial Basis Function Neural Networks (RBFNNs)**.
+
+---
+
+## 📝 Description
+
+This project is part of **Mini Project 2** for the *Fundamentals of Intelligent Systems* course.  
+It combines **mathematical derivations**, **conceptual analysis**, and **hands-on implementations** to study how intelligent systems perform classification and nonlinear function approximation.
+
+The project includes:
+- Analytical derivation of SVM formulations
+- Manual and coded SVM solutions
+- Static and adaptive RBF neural networks
+- Performance evaluation and model comparison
+
+All implementations are provided in a **Google Colab notebook**, and all theoretical explanations are documented in a **formal written report**.
+
+---
+
+## 🧰 Tools & Libraries
+
+- **Python**
+- **NumPy**
+- **Matplotlib**
+- **Scikit-learn**
+- **Google Colab**
+
+---
+
+## 📂 Repository Structure
+
 ```
 .
 ├── MP2 (1).pdf
-│   └── Full written report (theory, derivations, explanations)
+│   └── Complete written report (theory, derivations, explanations)
 │
-├── MP2__Fundamental_of_Intelligent_Systems(Q6).ipynb
+├── Mini_Project_2.ipynb
 │   └── Google Colab notebook with implementations and experiments
 │
-└── README.md
+├── README.md
+│   └── Project documentation
 ```
 
 ---
 
-## Project Overview
+## 🧩 Project Content Overview
 
-This mini project consists of **seven main questions**, combining mathematical derivations, conceptual reasoning, and practical machine learning implementations.
+### 🔹 Question 1 – Hard-Margin SVM
+- Primal and dual formulations
+- Margin derivation
+- Support vectors and KKT conditions
 
----
-
-## Question Breakdown
-
-### 1. Hard-Margin Support Vector Machine
-- Primal optimization formulation
-- Margin width derivation \( \frac{2}{\|w\|} \)
-- Dual formulation and interpretation
-- Role of support vectors and KKT conditions
-
----
-
-### 2. Soft-Margin SVM with ℓ1 Slack Variables
-- Primal problem with slack variables
-- Connection to hinge loss
+### 🔹 Question 2 – Soft-Margin SVM (ℓ1 Slack)
+- Hinge loss and slack variables
 - Effect of regularization parameter **C**
-- Bias–variance trade-off analysis
+
+### 🔹 Question 3 – ℓ2 Soft-Margin SVM
+- ℓ2 regularization
+- Kernel validity and PSD condition
+
+### 🔹 Question 4 – Manual Hard-Margin SVM in ℝ²
+- Hyperplane, margin, and support vectors
+
+### 🔹 Question 5 – Nonlinear Classification
+- Model selection and limitations
+
+### 🔹 Question 6 – Radial Basis Function Neural Networks
+- Static RBFNN
+- Adaptive RBFNN (M-RAN Inspired)
+
+### 🔹 Question 7 – Linear SVM Implementation
+- Parameter study and performance analysis
 
 ---
 
-### 3. ℓ2 Soft-Margin SVM
-- ℓ2-regularized primal and dual formulations
-- Differences between ℓ1 and ℓ2 slack penalties
-- Valid kernel definition (PSD condition)
-- Polynomial and RBF kernel justification
-- KKT conditions
+## 📊 Key Results
+
+- Adaptive RBFNN achieves lower RMSE with fewer neurons.
+- Linear SVM performs strongly on near-linearly separable data.
+- Parameter **C** significantly impacts generalization.
 
 ---
 
-### 4. Manual Hard-Margin SVM in ℝ²
-- Analytical solution for a linearly separable dataset
-- Explicit computation of:
-  - Separating hyperplane
-  - Margin
-  - Support vectors
+## 🚀 How to Run
 
----
-
-### 5. Nonlinear Classification and Model Selection
-- Choosing appropriate models for nonlinear decision boundaries
-- Comparison between MLPs and RBF networks
-- Explanation of failure modes in global-activation networks
-
----
-
-### 6. Radial Basis Function Neural Networks (Core Implementation)
-
-This section represents the main computational contribution of the project.
-
-#### Static RBF Neural Network
-- Fixed number of Gaussian RBF units
-- Random center selection from training samples
-- Least-squares estimation of output weights
-- Performance evaluation using RMSE on training and test data
-
-#### Adaptive RBF Neural Network (M-RAN Inspired)
-- Online learning with dynamic structure
-- Neuron growth based on:
-  - Input novelty
-  - Prediction error
-- Neuron pruning based on contribution threshold
-- LMS-based weight updates
-- Visualization of neuron count evolution
-- Performance comparison with static RBFNN
-
----
-
-### 7. Linear SVM Implementation and Hyperparameter Study
-- Binary classification task
-- Data preprocessing and standardization
-- Train/validation/test split
-- Effect of regularization parameter **C** on:
-  - Margin width
-  - Number of support vectors
-  - Validation accuracy and F1-score
-- PCA visualization (analysis only)
-- ROC and Precision–Recall curves
-
----
-
-## Key Results
-- Adaptive RBFNN achieves **lower RMSE** with **fewer neurons** compared to static RBFNN.
-- Linear SVM performs exceptionally well on near-linearly separable data.
-- Regularization parameter **C** significantly affects generalization and margin behavior.
-- PCA visualization confirms strong class separability.
-
----
-
-## How to Run
 1. Open the notebook in Google Colab:
    ```
-   MP2__Fundamental_of_Intelligent_Systems(Q6).ipynb
+   Mini_Project_2.ipynb
    ```
 2. Run all cells sequentially.
-3. No additional configuration is required beyond standard Python ML libraries.
 
 ---
 
-## Libraries Used
-- NumPy  
-- Matplotlib  
-- Scikit-learn  
+## 📄 Report
+
+📘 **MP2 (1).pdf**
 
 ---
 
-## Report
-The complete theoretical explanations, derivations, tables, and figures are provided in:
+## 🔗 Links
 
-📄 **MP2 (1).pdf**
-
----
-
-## Links
-- **Google Colab Notebook:**  
+- Google Colab Notebook:  
   https://colab.research.google.com/drive/1q1Lo1PNDZVKUzfceOROzuBnYmNYeSRcf
 
-- **GitHub Repository:**  
+- GitHub Repository:  
   https://github.com/alisoltani1383/Fundamental-of-Intelligent-Systems-2025
 
 ---
 
-## Notes
-This repository is intended for **academic and educational purposes**.  
-All implementations strictly follow the concepts taught in the course.
+## 🧠 Learning Outcomes
 
+- Understand SVM theory and implementation
+- Design static and adaptive RBF networks
+- Analyze and interpret model performance
+
+---
+
+## ⚠️ Notes
+
+This repository is intended for **academic and educational purposes only**.
