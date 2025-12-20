@@ -8,8 +8,7 @@
 ---
 
 ## 👥 Authors
-- **HamidReza Eslami** (40115563)  
-- **Ali Soltani** (40119403)  
+- **Ali Soltani** 
 
 ---
 
