@@ -1,136 +1,60 @@
 # 🧠 Mini Project 2 – Fundamentals of Intelligent Systems
 
-## 📘 Course: Fundamentals of Intelligent Systems  
-**Instructor:** Dr. Aliyary  
-**University:** Khajeh Nasir Toosi University of Technology  
-**Semester:** Fall 2025  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q1Lo1PNDZVKUzfceOROzuBnYmNYeSRcf)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange?logo=scikit-learn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+## 📘 Course Information
+
+| **Category** | **Details** |
+| :--- | :--- |
+| **University** | **Khajeh Nasir Toosi University of Technology (KNTU)** |
+| **Course** | Fundamentals of Intelligent Systems |
+| **Instructor** | Dr. Mahdi Aliyari-Shoorehdeli |
+| **Semester** | Fall 2025 |
+| **Author** | **Ali Soltani** |
 
 ---
 
-## 👥 Authors
-- **Ali Soltani** 
+## 🎯 Project Objective
+
+The primary goal of this mini-project is to bridge the gap between theory and practice in **Intelligent Systems**. It focuses on the mathematical derivation, manual calculation, and algorithmic implementation of two powerful architectures:
+1.  **Support Vector Machines (SVMs):** From fundamental hard-margin classifiers to soft-margin optimization.
+2.  **Radial Basis Function Neural Networks (RBFNNs):** Exploring both static and adaptive network topologies.
 
 ---
 
-## 🎯 Objective
+## 📝 Description & Content
 
-The objective of this mini project is to **analyze, design, and implement intelligent learning systems** based on both **theoretical foundations** and **practical machine learning models**, with a strong focus on **Support Vector Machines (SVMs)** and **Radial Basis Function Neural Networks (RBFNNs)**.
+This project is divided into theoretical analysis and practical coding implementation.
 
----
+### **Part 1: Support Vector Machines (SVM)**
+*   **📐 Theoretical Derivations:**
+    *   **Q1 (Hard-Margin):** Deriving Primal and Dual formulations, KKT conditions, and defining Support Vectors.
+    *   **Q2 (Soft-Margin ℓ1):** Introduction of slack variables ($\xi$) and the Hinge Loss function.
+    *   **Q3 (Soft-Margin ℓ2):** Analysis of ℓ2 regularization and Kernel validity (Mercer's theorem).
+*   **🛠️ Practical Implementation:**
+    *   **Q4 (Manual Calculation):** Solving SVM for a 2D dataset manually to find the optimal hyperplane and margin.
+    *   **Q7 (Linear SVM):** Implementation using `scikit-learn` to analyze the impact of the regularization parameter **C**.
 
-## 📝 Description
-
-This project is part of **Mini Project 2** for the *Fundamentals of Intelligent Systems* course.  
-It combines **mathematical derivations**, **conceptual analysis**, and **hands-on implementations** to study how intelligent systems perform classification and nonlinear function approximation.
-
-The project includes:
-- Analytical derivation of SVM formulations
-- Manual and coded SVM solutions
-- Static and adaptive RBF neural networks
-- Performance evaluation and model comparison
-
-All implementations are provided in a **Google Colab notebook**, and all theoretical explanations are documented in a **formal written report**.
-
----
-
-## 🧰 Tools & Libraries
-
-- **Python**
-- **NumPy**
-- **Matplotlib**
-- **Scikit-learn**
-- **Google Colab**
+### **Part 2: Neural Networks**
+*   **🧠 Radial Basis Functions (RBF):**
+    *   **Q6 (Static vs. Adaptive):** 
+        *   Implementation of a standard **Static RBFNN**.
+        *   Design of an **Adaptive RBFNN** (inspired by M-RAN) that dynamically adds neurons based on error thresholds.
 
 ---
 
 ## 📂 Repository Structure
 
-```
-.
-├── MP2 (1).pdf
-│   └── Complete written report (theory, derivations, explanations)
+```text
+MiniProject2/
 │
-├── Mini_Project_2.ipynb
-│   └── Google Colab notebook with implementations and experiments
+├── 📄 MP2 (1).pdf              # 📘 Full Project Report
+│                                  (Includes math derivations, theory, and Q&A)
 │
-├── README.md
-│   └── Project documentation
-```
-
----
-
-## 🧩 Project Content Overview
-
-### 🔹 Question 1 – Hard-Margin SVM
-- Primal and dual formulations
-- Margin derivation
-- Support vectors and KKT conditions
-
-### 🔹 Question 2 – Soft-Margin SVM (ℓ1 Slack)
-- Hinge loss and slack variables
-- Effect of regularization parameter **C**
-
-### 🔹 Question 3 – ℓ2 Soft-Margin SVM
-- ℓ2 regularization
-- Kernel validity and PSD condition
-
-### 🔹 Question 4 – Manual Hard-Margin SVM in ℝ²
-- Hyperplane, margin, and support vectors
-
-### 🔹 Question 5 – Nonlinear Classification
-- Model selection and limitations
-
-### 🔹 Question 6 – Radial Basis Function Neural Networks
-- Static RBFNN
-- Adaptive RBFNN (M-RAN Inspired)
-
-### 🔹 Question 7 – Linear SVM Implementation
-- Parameter study and performance analysis
-
----
-
-## 📊 Key Results
-
-- Adaptive RBFNN achieves lower RMSE with fewer neurons.
-- Linear SVM performs strongly on near-linearly separable data.
-- Parameter **C** significantly impacts generalization.
-
----
-
-## 🚀 How to Run
-
-1. Open the notebook in Google Colab:
-   ```
-   Mini_Project_2.ipynb
-   ```
-2. Run all cells sequentially.
-
----
-
-## 📄 Report
-
-📘 **MP2 (1).pdf**
-
----
-
-## 🔗 Links
-
-- Google Colab Notebook:  
-  https://colab.research.google.com/drive/1q1Lo1PNDZVKUzfceOROzuBnYmNYeSRcf
-
-- GitHub Repository:  
-  https://github.com/alisoltani1383/Fundamental-of-Intelligent-Systems-2025
-
----
-
-## 🧠 Learning Outcomes
-
-- Understand SVM theory and implementation
-- Design static and adaptive RBF networks
-- Analyze and interpret model performance
-
----
-
-## ⚠️ Notes
-
-This repository is intended for **academic and educational purposes only**.
+├── 📓 Mini_Project_2.ipynb     # 🐍 Google Colab Notebook
+│                                  (Python code, plots, and experiments)
+│
+└── 📜 README.md                # 📄 Project Documentation
