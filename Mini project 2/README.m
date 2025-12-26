@@ -1,60 +1,70 @@
-# 🧠 Mini Project 2 – Fundamentals of Intelligent Systems
+# **🧠 Mini Project 2 - Fundamentals of Intelligent Systems**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q1Lo1PNDZVKUzfceOROzuBnYmNYeSRcf)
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange?logo=scikit-learn&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+## **📘 HW2 - Questions 1-4 & 7: Support Vector Machines**
 
-## 📘 Course Information
+**Objective:** Analyze the mathematical foundations and practical implementation of Support Vector Machines (SVM).
 
-| **Category** | **Details** |
-| :--- | :--- |
-| **University** | **Khajeh Nasir Toosi University of Technology (KNTU)** |
-| **Course** | Fundamentals of Intelligent Systems |
-| **Instructor** | Dr. Mahdi Aliyari-Shoorehdeli |
-| **Semester** | Fall 2025 |
-| **Author** | **Ali Soltani** |
+**Description:** This section covers both the theoretical derivation and algorithmic implementation of SVMs.
+*   **Theory (Q1-Q3):** Derivation of Primal and Dual forms, KKT conditions, and Soft-Margin formulations (L1 & L2 loss).
+*   **Manual Calculation (Q4):** Step-by-step manual computation of the optimal hyperplane and margin for a specific 2D dataset.
+*   **Implementation (Q7):** Utilization of Scikit-learn to train Linear SVMs, specifically analyzing the effect of the regularization parameter (**C**) on decision boundaries and generalization.
 
----
+**Tools & Libraries:**
 
-## 🎯 Project Objective
+*   Python
 
-The primary goal of this mini-project is to bridge the gap between theory and practice in **Intelligent Systems**. It focuses on the mathematical derivation, manual calculation, and algorithmic implementation of two powerful architectures:
-1.  **Support Vector Machines (SVMs):** From fundamental hard-margin classifiers to soft-margin optimization.
-2.  **Radial Basis Function Neural Networks (RBFNNs):** Exploring both static and adaptive network topologies.
+*   NumPy
 
----
+*   Matplotlib
 
-## 📝 Description & Content
+*   Scikit-learn
 
-This project is divided into theoretical analysis and practical coding implementation.
+### **🧩 Learning Outcomes**
 
-### **Part 1: Support Vector Machines (SVM)**
-*   **📐 Theoretical Derivations:**
-    *   **Q1 (Hard-Margin):** Deriving Primal and Dual formulations, KKT conditions, and defining Support Vectors.
-    *   **Q2 (Soft-Margin ℓ1):** Introduction of slack variables ($\xi$) and the Hinge Loss function.
-    *   **Q3 (Soft-Margin ℓ2):** Analysis of ℓ2 regularization and Kernel validity (Mercer's theorem).
-*   **🛠️ Practical Implementation:**
-    *   **Q4 (Manual Calculation):** Solving SVM for a 2D dataset manually to find the optimal hyperplane and margin.
-    *   **Q7 (Linear SVM):** Implementation using `scikit-learn` to analyze the impact of the regularization parameter **C**.
+*   Derive and solve SVM optimization problems manually.
 
-### **Part 2: Neural Networks**
-*   **🧠 Radial Basis Functions (RBF):**
-    *   **Q6 (Static vs. Adaptive):** 
-        *   Implementation of a standard **Static RBFNN**.
-        *   Design of an **Adaptive RBFNN** (inspired by M-RAN) that dynamically adds neurons based on error thresholds.
+*   Understand the role of Slack Variables and Kernel functions.
+
+*   Analyze the impact of regularization on Model Bias and Variance.
+
+### **👨‍💻 Author**
+
+Ali Soltani
+
+### **📅 Course Information**
+
+Fundamentals of Intelligent Systems - Mini Project 2 (Fall 2025)
 
 ---
 
-## 📂 Repository Structure
+## **📗 HW2 - Question 6: Radial Basis Function Neural Networks**
 
-```text
-MiniProject2/
-│
-├── 📄 MP2 (1).pdf              # 📘 Full Project Report
-│                                  (Includes math derivations, theory, and Q&A)
-│
-├── 📓 Mini_Project_2.ipynb     # 🐍 Google Colab Notebook
-│                                  (Python code, plots, and experiments)
-│
-└── 📜 README.md                # 📄 Project Documentation
+**Objective:** Design and compare Static and Adaptive Radial Basis Function (RBF) Neural Networks.
+
+**Description:** This notebook focuses on nonlinear function approximation using RBF networks.
+*   **Static RBFNN:** Implementation of a fixed-structure RBF network.
+*   **Adaptive RBFNN:** Design of a dynamic network (inspired by M-RAN) that automatically adds neurons based on prediction error thresholds, optimizing both network size and accuracy.
+
+**Tools & Libraries:**
+
+*   Python
+
+*   NumPy
+
+*   Matplotlib
+
+### **🧩 Learning Outcomes**
+
+*   Implement RBF Neural Networks from scratch.
+
+*   Understand the difference between Static and Adaptive learning strategies.
+
+*   Evaluate model performance using RMSE and network complexity.
+
+### **👨‍💻 Author**
+
+Ali Soltani
+
+### **📅 Course Information**
+
+Course: Fundamentals of Intelligent Systems | Semester: Fall 2025 | Instructor: Dr. Mahdi Aliyari-Shoorehdeli
