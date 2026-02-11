@@ -1,50 +1,178 @@
+# 🧠 Final Project & Examination – Fundamentals of Intelligent Systems (FIS4041)
 
-# Fundamentals of Intelligent Systems (FIS4041) — Final Project & Examination Materials
+## 📘 Final Project – Intelligent Systems Applications
 
-This repository contains the final project deliverables and final examination solutions for the **Fundamentals of Intelligent Systems** course, implemented primarily in Python (Jupyter/Colab) and documented in accompanying PDF reports. [file:49][cite:0]
+**Objective:**  
+Design, implement, and evaluate core intelligent system techniques across supervised learning, unsupervised learning, and reinforcement learning domains.
 
-At an undergraduate/early-graduate level, the course emphasizes core intelligent-systems concepts and practical machine-learning workflows, including optimization-based feature selection, clustering for unsupervised learning, and reinforcement learning fundamentals (Q-learning). [file:49]
+**Description:**  
+This repository contains the complete final project deliverables and final examination solutions for the *Fundamentals of Intelligent Systems* course. The work emphasizes practical implementation, algorithmic understanding, and analytical evaluation using real-world datasets.
 
-## Repository overview
+The project is structured into three main components:
 
-**Academic context.** The materials reflect a hands-on intelligent-systems curriculum focused on implementing and evaluating learning/optimization algorithms using real datasets and reproducible experiments. [file:49]
+1. **Feature Selection via Evolutionary Optimization (Supervised Learning)**
+2. **Customer Segmentation via Clustering (Unsupervised Learning)**
+3. **Conceptual & Computational Analysis of Q-Learning (Reinforcement Learning)**
 
-**Learning objectives.** By the end of these assignments, the work demonstrates the ability to: (1) preprocess real-world tabular data, (2) implement and compare evolutionary optimization methods for feature selection, (3) apply and assess multiple clustering paradigms for segmentation, and (4) explain and compute core reinforcement-learning updates (Q-learning). [file:49][file:51][file:47]
+All implementations are provided in Python (Jupyter/Colab), accompanied by detailed PDF reports.
 
-## Project and final exam description
+---
 
-### Scope and purpose
+# 📊 Q1 – Loan Approval Prediction with Evolutionary Feature Selection
 
-The final project/report is structured around two applied machine-learning tasks: (I) feature selection via evolutionary algorithms for a supervised prediction problem, and (II) customer segmentation via clustering for an unsupervised learning problem. [file:49]
+## 🎯 Objective
+Optimize feature subsets for a supervised classification task using evolutionary algorithms.
 
-### Problems addressed
+## 📖 Description
+This notebook applies:
 
-- **Q1 (Supervised + Optimization):** Loan approval prediction with automated feature subset selection using Particle Swarm Optimization (PSO) and Genetic Algorithm (GA), balancing predictive performance and subset size. [file:49][file:51]
-- **Q2 (Unsupervised Learning):** Customer segmentation using K-Means, Agglomerative Clustering, and DBSCAN, including standardization, PCA visualization, and silhouette-based evaluation. [file:49][file:47]
-- **Q3 (Reinforcement Learning):** Conceptual and computational questions on Q-learning (update rule, off-policy nature, and instability factors with mitigation strategies). [file:49]
+- 🧬 **Genetic Algorithm (GA)**
+- 🚀 **Particle Swarm Optimization (PSO)**
 
-### Expected outcomes
+to automatically select an optimal subset of features for a loan approval prediction problem.
 
-- Reproducible implementations (notebooks) with clear preprocessing, training/evaluation loops, and comparative analyses. [file:49][file:51][file:47]
-- Interpretable conclusions connecting results to the underlying problem context (e.g., dominant features in loan approval; actionable customer segments). [file:49]
+The optimization balances:
 
-## Repository structure
+- Predictive performance
+- Model simplicity (minimum number of selected features)
 
-> The repository currently contains the following primary artifacts (as uploaded): notebooks and PDF reports. [cite:0]
+## 🛠 Tools & Libraries
 
-Recommended organization for a public academic repository (you may keep files at the root, but this layout is cleaner for long-term maintenance): [cite:0]
+- Python  
+- NumPy  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
+
+## 🧩 Learning Outcomes
+
+- Implement evolutionary optimization for feature selection.
+- Define multi-objective fitness functions.
+- Compare GA vs PSO convergence behavior.
+- Interpret dominant features influencing loan approval decisions.
+
+---
+
+# 📈 Q2 – Customer Segmentation using Clustering
+
+## 🎯 Objective
+Apply and compare multiple clustering algorithms for unsupervised segmentation.
+
+## 📖 Description
+This notebook performs customer segmentation using:
+
+- 📌 **K-Means**
+- 🌳 **Agglomerative Clustering**
+- 🌐 **DBSCAN**
+
+Key steps include:
+
+- Data standardization
+- PCA-based dimensionality reduction for visualization
+- Silhouette score evaluation
+- Comparative analysis of clustering structures
+
+## 🛠 Tools & Libraries
+
+- Python  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Scikit-learn  
+
+## 🧩 Learning Outcomes
+
+- Implement and compare centroid-based, hierarchical, and density-based clustering.
+- Evaluate clustering performance using silhouette metrics.
+- Visualize high-dimensional data using PCA.
+- Extract actionable customer segmentation insights.
+
+---
+
+# 🤖 Q3 – Reinforcement Learning: Q-Learning Analysis
+
+## 🎯 Objective
+Demonstrate conceptual and mathematical understanding of Q-learning.
+
+## 📖 Description
+This section includes:
+
+- Derivation and explanation of the Q-learning update rule  
+- Analysis of off-policy learning behavior  
+- Discussion of instability factors  
+- Strategies for improving convergence stability  
+
+## 🧩 Learning Outcomes
+
+- Understand temporal-difference learning.
+- Interpret the Bellman optimality equation.
+- Analyze exploration vs exploitation trade-offs.
+- Identify divergence risks and mitigation techniques.
+
+---
+
+# 📂 Repository Structure
 
 ```text
 .
 ├── notebooks/
-│   ├── FIS_Final_Q1.ipynb              # Q1: Feature selection with PSO and GA (supervised ML)[1]
-│   ├── FIS_Final_Q2.ipynb              # Q2: Clustering-based customer segmentation (unsupervised ML)[2]
-│   └── FIS_Final_Project.ipynb         # Project notebook (integrated work) 
+│   ├── FIS_Final_Q1.ipynb
+│   ├── FIS_Final_Q2.ipynb
+│   └── FIS_Final_Project.ipynb
+│
 ├── reports/
-│   ├── FIS_Final_Questions.pdf         # Full report + questions + results + Q-learning section[3]
-│   └── FIS_Final_Project.pdf           # Project PDF deliverable 
+│   ├── FIS_Final_Questions.pdf
+│   └── FIS_Final_Project.pdf
+│
 ├── code/
-│   └── FIS4041_Final__Code.pdf         # Course final code appendix/export 
-├── requirements.txt                    # Python dependencies (create from the list below)
-├── LICENSE                             # Recommended (see License section)
+│   └── FIS4041_Final__Code.pdf
+│
+├── requirements.txt
+├── LICENSE
 └── README.md
+```
+
+---
+
+# ⚙️ Installation & Dependencies
+
+To reproduce the experiments:
+
+```bash
+pip install -r requirements.txt
+```
+
+Typical dependencies include:
+
+- numpy  
+- pandas  
+- scikit-learn  
+- matplotlib  
+- seaborn  
+
+---
+
+# 🧩 Core Competencies Demonstrated
+
+- End-to-end Machine Learning pipeline design  
+- Evolutionary optimization for feature engineering  
+- Unsupervised clustering and segmentation analysis  
+- Reinforcement learning fundamentals  
+- Experimental comparison and reproducibility  
+
+---
+
+# 👨‍💻 Author
+
+Ali Soltani  
+
+---
+
+# 📅 Course Information
+
+**Course:** Fundamentals of Intelligent Systems (FIS4041)  
+**Semester:** Fall 2025  
+**Level:** Undergraduate / Early Graduate  
+**Focus Areas:** Evolutionary Computation, Clustering, Reinforcement Learning  
+
+---
